@@ -66,7 +66,7 @@ body{
 }
 .product img{
     max-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
 }
 .product{
@@ -250,7 +250,7 @@ body{
 
 .product3 img{
     max-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
 }
 .product3{

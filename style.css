@@ -4,7 +4,7 @@ body{
 }
 
 .navbar {
-    padding: 20px;
+    padding: 10px;
     font-size: 14px;
     display: flex;
     justify-content: space-between;

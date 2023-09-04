@@ -41,10 +41,18 @@ body{
     margin:10px;
 }
 
-.find-a-store{
+.find-a-store {
     display: flex;
     align-items: center;
     font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.find-a-store a{
+    text-decoration: none;
+    color:black;
+    font-size:500;
 }
 
 .sign-in,
@@ -249,9 +257,10 @@ body{
 
 
 .product3 img{
-    max-width: 100%;
-    object-fit: cover;
-    height: 100%;
+    max-width: 20%;
+    object-fit:contain;
+    height: 0%;
+    margin-right: 10%;
 }
 .product3{
     display: flex;
@@ -262,13 +271,14 @@ body{
 }
 .product-title3 {
     width: 100%;
-    text-align: center;
+    text-align:center;
     color: #ffffff;
     font-size: 30px;
     font-weight: 600;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 0px;
+    
 
 }
 
@@ -283,10 +293,12 @@ body{
     padding: 7px 16px;
     border-radius: 50px;
     font-weight: 600;
-    text-align: center;
+    text-align:center;
     border-width: 1px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 50px;
+
 }
 .product-description3 {
     font-size: 19px;
@@ -305,3 +317,31 @@ body{
 .product-button3 a:hover{
     color: black;
 }
+
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.dropdown .content{
+    display: none;
+    position:absolute;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.dropdown:hover .content{
+    display: block;
+    cursor: pointer;
+
+}
+
+.dropdown a:hover{
+    background-color: #00754a;
+    cursor: pointer;
+}
+
+

@@ -358,7 +358,7 @@ body{
 }
 .product-title4{
     width: 100%;
-    text-align: center;
+    text-align:center;
     color: #ffffff;
     font-size: 30px;
     font-weight: 600;
@@ -366,7 +366,7 @@ body{
     margin-top: 120px;
     letter-spacing: 1px;
     line-height: 1.2;
-
+    margin-left: 200px;
 
 }
 
@@ -374,11 +374,11 @@ body{
     margin: 40px 0px 40px 0px;
 }
 
-.product-button4{
+.product-button4 {
     border:1px solid #ffffff;
     color:#ffffff;
     max-width: max-content;
-    padding: 7px 16px;
+    padding: 5px 30px;
     border-radius: 50px;
     font-weight: 600;   
     text-align: center;
@@ -386,6 +386,8 @@ body{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 50px;
+    margin-left: 400px;
+
 }
 .product-description4{
     font-size: 20px;
